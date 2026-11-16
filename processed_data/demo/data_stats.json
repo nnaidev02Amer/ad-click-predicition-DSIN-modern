@@ -1,0 +1,53 @@
+{
+  "n_impressions": 25000,
+  "n_users": 1500,
+  "n_ads": 300,
+  "click_rate": 0.0726,
+  "clk_counts": {
+    "0": 23185,
+    "1": 1815
+  },
+  "time_min": 1494028805,
+  "time_max": 1494892771,
+  "users_with_no_history": 1286,
+  "sess_length_hist": {
+    "0": 1286,
+    "1": 3333,
+    "2": 4523,
+    "3": 4344,
+    "4": 3547,
+    "5": 7967
+  },
+  "missing_after_join": {
+    "userid": 0,
+    "time_stamp": 0,
+    "adgroup_id": 0,
+    "pid": 0,
+    "nonclk": 0,
+    "clk": 0,
+    "cms_segid": 0,
+    "cms_group_id": 0,
+    "final_gender_code": 0,
+    "age_level": 0,
+    "pvalue_level": 0,
+    "shopping_level": 0,
+    "occupation": 0,
+    "new_user_class_level": 0,
+    "cate_id": 0,
+    "campaign_id": 0,
+    "customer": 0,
+    "brand": 0,
+    "price": 0
+  },
+  "duplicates_in_samples": 0,
+  "profile_missing_filled_with_-1": {
+    "cms_segid": 0,
+    "cms_group_id": 0,
+    "final_gender_code": 0,
+    "age_level": 0,
+    "pvalue_level": 477,
+    "shopping_level": 0,
+    "occupation": 0,
+    "new_user_class_level": 301
+  }
+}

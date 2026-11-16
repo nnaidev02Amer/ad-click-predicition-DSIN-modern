@@ -1,0 +1,140 @@
+{
+  "raw_dir": "C:\\Users\\SURESH\\Desktop\\kits project\\ad click predicition\\DSIN-modern\\demo_data\\raw",
+  "files": {
+    "raw_sample.csv": {
+      "exists": true,
+      "path": "C:\\Users\\SURESH\\Desktop\\kits project\\ad click predicition\\DSIN-modern\\demo_data\\raw\\raw_sample.csv",
+      "size_mb": 1.0,
+      "columns": [
+        "user",
+        "time_stamp",
+        "adgroup_id",
+        "pid",
+        "nonclk",
+        "clk"
+      ],
+      "missing_columns": []
+    },
+    "ad_feature.csv": {
+      "exists": true,
+      "path": "C:\\Users\\SURESH\\Desktop\\kits project\\ad click predicition\\DSIN-modern\\demo_data\\raw\\ad_feature.csv",
+      "size_mb": 0.01,
+      "columns": [
+        "adgroup_id",
+        "cate_id",
+        "campaign_id",
+        "customer",
+        "brand",
+        "price"
+      ],
+      "missing_columns": []
+    },
+    "user_profile.csv": {
+      "exists": true,
+      "path": "C:\\Users\\SURESH\\Desktop\\kits project\\ad click predicition\\DSIN-modern\\demo_data\\raw\\user_profile.csv",
+      "size_mb": 0.04,
+      "columns": [
+        "userid",
+        "cms_segid",
+        "cms_group_id",
+        "final_gender_code",
+        "age_level",
+        "pvalue_level",
+        "shopping_level",
+        "occupation",
+        "new_user_class_level"
+      ],
+      "missing_columns": []
+    },
+    "behavior_log.csv (or raw_behavior_log.csv)": {
+      "exists": true,
+      "path": "C:\\Users\\SURESH\\Desktop\\kits project\\ad click predicition\\DSIN-modern\\demo_data\\raw\\behavior_log.csv",
+      "size_mb": 1.72,
+      "columns": [
+        "user",
+        "time_stamp",
+        "btag",
+        "cate",
+        "brand"
+      ],
+      "missing_columns": []
+    }
+  },
+  "missing": [],
+  "ok": true,
+  "stats": {
+    "raw_sample": {
+      "rows": 25000,
+      "duplicates": 0,
+      "missing": {
+        "user": 0,
+        "time_stamp": 0,
+        "adgroup_id": 0,
+        "pid": 0,
+        "nonclk": 0,
+        "clk": 0
+      },
+      "clk_distribution": {
+        "0": 23185,
+        "1": 1815
+      },
+      "clk_values_valid": true,
+      "users": 1500,
+      "ads": 300,
+      "time_min": 1494028805,
+      "time_max": 1494892771,
+      "dtypes": {
+        "user": "int64",
+        "time_stamp": "int64",
+        "adgroup_id": "int64",
+        "pid": "object",
+        "nonclk": "int64",
+        "clk": "int64"
+      }
+    },
+    "ad_feature": {
+      "rows": 300,
+      "duplicate_adgroup_id": 0,
+      "missing": {
+        "adgroup_id": 0,
+        "cate_id": 0,
+        "campaign_id": 0,
+        "customer": 0,
+        "brand": 2,
+        "price": 0
+      },
+      "sample_ads_without_feature": 0
+    },
+    "user_profile": {
+      "rows": 1500,
+      "duplicate_userid": 0,
+      "missing": {
+        "userid": 0,
+        "cms_segid": 0,
+        "cms_group_id": 0,
+        "final_gender_code": 0,
+        "age_level": 0,
+        "pvalue_level": 477,
+        "shopping_level": 0,
+        "occupation": 0,
+        "new_user_class_level": 301
+      },
+      "sample_users_without_profile": 0
+    },
+    "behavior_log_head": {
+      "rows_inspected": 54428,
+      "btag_counts": {
+        "pv": 52928,
+        "cart": 1500
+      },
+      "missing": {
+        "user": 0,
+        "time_stamp": 0,
+        "btag": 0,
+        "cate": 0,
+        "brand": 0
+      }
+    }
+  },
+  "problems": []
+}

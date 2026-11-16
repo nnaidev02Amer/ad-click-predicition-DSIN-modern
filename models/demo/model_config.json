@@ -1,0 +1,37 @@
+{
+  "mode": "demo",
+  "trained_on_synthetic_data": true,
+  "model_params": {
+    "att_embedding_size": 1,
+    "att_head_num": 8,
+    "dnn_hidden_units": [
+      200,
+      80
+    ],
+    "dnn_activation": "relu",
+    "bias_encoding": false,
+    "embedding_dim": 4
+  },
+  "training": {
+    "epochs_requested": 25,
+    "epochs_run": 6,
+    "batch_size": 256,
+    "learning_rate": 0.1,
+    "optimizer": "Adagrad",
+    "loss": "binary_crossentropy",
+    "val_fraction": 0.1,
+    "early_stopping_patience": 5,
+    "seed": 1024,
+    "n_train": 15784,
+    "n_validation": 1753,
+    "n_test": 7463,
+    "seconds": 95.7,
+    "tensorflow": "2.15.1"
+  },
+  "data_schema": {
+    "frac": 1.0,
+    "sess_count": 5,
+    "sess_max_len": 10
+  },
+  "trained_at": "2026-11-12 16:57:08"
+}

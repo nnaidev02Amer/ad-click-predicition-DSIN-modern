@@ -1,0 +1,19 @@
+{
+  "n": 7463,
+  "positive_rate": 0.07222296663540131,
+  "logloss": 0.2596054110878744,
+  "auc": 0.49710600326470594,
+  "threshold": 0.5,
+  "confusion_matrix": {
+    "tn": 6924,
+    "fp": 0,
+    "fn": 539,
+    "tp": 0
+  },
+  "mode": "demo",
+  "synthetic_data": true,
+  "evaluated_on": "time-based held-out test split",
+  "predict_seconds": 13.97,
+  "evaluated_at": "2026-11-12 16:57:30",
+  "warning": "DEMO MODE - SYNTHETIC DATA. These numbers are NOT Taobao results."
+}

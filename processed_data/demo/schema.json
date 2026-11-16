@@ -1,0 +1,147 @@
+{
+  "sess_count": 5,
+  "sess_max_len": 10,
+  "frac": 1.0,
+  "vocab_sizes": {
+    "userid": 2499,
+    "adgroup_id": 1299,
+    "pid": 1001,
+    "cms_segid": 1039,
+    "cms_group_id": 1012,
+    "final_gender_code": 1001,
+    "age_level": 1005,
+    "pvalue_level": 1003,
+    "shopping_level": 1002,
+    "occupation": 1001,
+    "new_user_class_level": 1004,
+    "campaign_id": 1098,
+    "customer": 1107,
+    "cate_id": 1031,
+    "brand": 1062
+  },
+  "dense_features": [
+    "price"
+  ],
+  "sparse_features": [
+    "userid",
+    "adgroup_id",
+    "pid",
+    "cms_segid",
+    "cms_group_id",
+    "final_gender_code",
+    "age_level",
+    "pvalue_level",
+    "shopping_level",
+    "occupation",
+    "new_user_class_level",
+    "campaign_id",
+    "customer"
+  ],
+  "sess_features": [
+    "cate_id",
+    "brand"
+  ],
+  "price_mean": 92.5104432,
+  "price_scale": 117.53778464614506,
+  "split_ts": 1494633600,
+  "n_samples": 25000,
+  "profile_choices": {
+    "cms_segid": [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      13.0,
+      14.0,
+      15.0,
+      16.0,
+      17.0,
+      18.0,
+      19.0,
+      20.0,
+      21.0,
+      22.0,
+      23.0,
+      24.0,
+      25.0,
+      26.0,
+      27.0,
+      28.0,
+      29.0,
+      30.0,
+      31.0,
+      32.0,
+      33.0,
+      34.0,
+      35.0,
+      36.0,
+      37.0,
+      38.0,
+      39.0
+    ],
+    "cms_group_id": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      13.0
+    ],
+    "final_gender_code": [
+      1.0,
+      2.0
+    ],
+    "age_level": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+    ],
+    "pvalue_level": [
+      -1.0,
+      1.0,
+      2.0,
+      3.0
+    ],
+    "shopping_level": [
+      1.0,
+      2.0,
+      3.0
+    ],
+    "occupation": [
+      0.0,
+      1.0
+    ],
+    "new_user_class_level": [
+      -1.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0
+    ]
+  },
+  "pid_choices": [
+    "430539_1007",
+    "430548_1007"
+  ],
+  "n_cate": 30,
+  "n_brand": 61
+}
